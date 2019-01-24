@@ -1,0 +1,26 @@
+{
+  "name": "simplehttp",
+  "version": "1.0.0",
+  "description": "simple http homework",
+  "main": "./src/server.js",
+  "scripts": {
+    "start":"node ./src/server.js",
+    "pretest":"eslint ./src --fix",
+    "test": "echo \"Tests Complete\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/aliciaoshzyx/Simple-HTTP-Assignment-Start.git"
+  },
+  "author": "Alicia Pankratz",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/aliciaoshzyx/Simple-HTTP-Assignment-Start/issues"
+  },
+  "homepage": "https://github.com/aliciaoshzyx/Simple-HTTP-Assignment-Start#readme",
+  "devDependencies": {
+    "eslint": "^5.12.1",
+    "eslint-config-airbnb": "^17.1.0",
+    "eslint-plugin-import": "^2.15.0"
+  }
+}
